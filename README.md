@@ -69,9 +69,9 @@ Para avaliar a performace do modelo, foi utilizada a técnica de cross validatio
 Após todas as otimizações dos modelos chegamos nos seguintes resultados de AUC:
 </p>
 
-Regressão Logística: 0.8681
+Regressão Logística: 0.8681 com 21 atributos.
  
-Floresta Aleatória: 0.9035
+Floresta Aleatória: 0.9035 com 24 atributos.
 
 # Conclusões :memo:
 
