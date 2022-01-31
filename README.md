@@ -89,4 +89,4 @@ Link para o [Notebook](https://github.com/rodrigodemend/Diagnostico-de-Dados-Cli
 
 Rodrigo de Mendonça
 
-Linkedin: https://www.linkedin.com/in/rodrigomendonça/
+[Linkedin](https://www.linkedin.com/in/rodrigomendonça/)
