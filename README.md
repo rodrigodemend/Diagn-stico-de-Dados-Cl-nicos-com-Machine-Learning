@@ -35,8 +35,11 @@ Primeiramente iremos fazer a importação dos dados do [Kaggle](https://www.kagg
 
 
 <p align="justify">
-Após a limpeza, iremos fazer uma exploração dos dados e engenharia de atributos com o objetivo de buscar por possíveis atributos que possa ajudar nosso modelo a diferenciar entre os pacientes que irão para UTI e os que não não irão. Além de buscar por novos atributos escondidos nos dados, também iremos ajustar as escalas para que nosso modelo não de preferência para um atributo apenas porque está em uma escala diferente dos demais. Está e as demais etapas se encontram nesse NOTEBOOK.
+Após a limpeza, iremos fazer uma exploração dos dados e engenharia de atributos com o objetivo de buscar por possíveis atributos que possa ajudar nosso modelo a diferenciar entre os pacientes que irão para UTI e os que não não irão. Além de buscar por novos atributos escondidos nos dados, também iremos ajustar as escalas para que nosso modelo não de preferência para um atributo apenas porque está em uma escala diferente dos demais. 
 </p>
+
+Está e as demais etapas se encontram nesse [Notebook](https://github.com/rodrigodemend/Diagnostico-de-Dados-Clinicos-com-Machine-Learning/blob/main/Notebooks/Modelagem_para_Diagnóstico_de_Dados_Clínicos_com_Machine_Learning_.ipynb).
+
 
 <p align="justify">
 Também iremos fazer o balanceamento das classes utilizando uma técnica conhecida como SMOTE. O balanceamento dos dados é algo importante pois se tivermos muito mais dados de apenas uma classe, nosso modelo poderá prever tudo para essa classe e mesmo assim ele ainda terá uma suposta boa avaliação de performace.
