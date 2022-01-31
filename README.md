@@ -4,7 +4,7 @@ Olá! Bem vindo ao meu repositório relativo ao projeto final do Bootcamp Data S
 
 Abaixo detalherei melhor qual o escopo do projeto, quais dados serão utilizados e como será organizado o projeto.
 
-Descrição do Problema :clipboard:
+# Descrição do Problema :clipboard:
 
 A pandemia do COVID-19 sobrecarregou o sistema de saúde, que não estava preparado para uma demanda tão grande de leitos de UTI, profissionais capacitados, equipamentos de proteção individual, entre outros recursos. Com recursos escassos, ter em mãos a previsão de quais pacientes irão precisar utilizar esses recursos é de suma importância.
 
