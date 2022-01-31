@@ -1,6 +1,10 @@
 # Diagnóstico de Dados Clinicos com Machine Learning
 
+<p align="justify"> Escrever descrição, que ficará com texto justificado </p>
+
+<p align="justify">
 Olá! Bem vindo ao meu repositório relativo ao projeto final do Bootcamp Data Science da Alura! Nele eu pude demonstrar todo o conhecimento adquirido durante o Bootcamp, aplicando em um caso real de dados disponibilizados pelo hospital Sírio-Libanês. O principal objetivo é a construção de um modelo de machine learning capaz de detectar quais pacientes do hospital Sírio-Libanês que foram internados, irão agravar seus casos e precisarão de leito de UTI. 
+</p>
 
 Abaixo detalherei melhor qual o escopo do projeto, quais dados serão utilizados e como será organizado o projeto.
 
