@@ -71,17 +71,10 @@ Regressão Logística: 0.8681
 Floresta Aleatória: 0.9035
 
 # Conclusões :memo:
-  
 
-  
-  
-
-======================================================================================================================
-
-
-# Conclusões :memo:
-
-Através de melhores estudos e aperfeiçoamento dos parâmetros, é possível encontrar modelos muitos precisos. Neste caso conseguimos otimizar bem, porém acredito que ainda exista um grande campo de otimização desse modelo para que consiga prever as mortes por Covid-19 com cada vez mais eficiência.
+<p align="justify">
+Obtivemos bons resultados após toda a otimização dos modelos, porém na área da saúde nós devemos ter modelos muito precisos. Acredito que nossa Regressão Logística e nossa Floresta Aleatória poderiam ser muito úteis na criação de ensembles para tentar chegar em um AUC cada vez melhor. Assim como testar outros algoritmos como SVM e KNN a fim de olhar por outros ângulos para o problema, podendo trazer um poder preditivo diferente.
+</p>
 
 Link para o [Notebook](https://github.com/rodrigodemend/Previsao_Covid/blob/main/Notebooks/Previsão_de_Series_Temporais_usando_Prophet.ipynb) do projeto.
 
