@@ -33,13 +33,11 @@ Os dados foram obtidos através do [Kaggle](https://www.kaggle.com/Sírio-Libane
 
 Primeiramente iremos fazer a importação dos dados do [Kaggle](https://www.kaggle.com/Sírio-Libanes/covid19) e realizar alguns procedimentos para sua limpeza. Essa etapa consiste em tratar os valores faltantes, ajustar os datatypes, verificar a presença de outliers e fazer a transformação dos dados no formato que precisamos para passar para nossos modelos de machine learning. Tudo isso se encontra nesse [Notebook](https://github.com/rodrigodemend/Diagnostico-de-Dados-Clinicos-com-Machine-Learning/blob/main/Notebooks/Importação_e_Limpeza_dos_Dados.ipynb).
 
+O Notebook com a modelagem e as demais etapas, você pode encontrar clicando [aqui](https://github.com/rodrigodemend/Diagnostico-de-Dados-Clinicos-com-Machine-Learning/blob/main/Notebooks/Modelagem_para_Diagnóstico_de_Dados_Clínicos_com_Machine_Learning_.ipynb).
 
 <p align="justify">
 Após a limpeza, iremos fazer uma exploração dos dados e engenharia de atributos com o objetivo de buscar por possíveis atributos que possa ajudar nosso modelo a diferenciar entre os pacientes que irão para UTI e os que não não irão. Além de buscar por novos atributos escondidos nos dados, também iremos ajustar as escalas para que nosso modelo não de preferência para um atributo apenas porque está em uma escala diferente dos demais. 
 </p>
-
-Está e as demais etapas se encontram nesse [Notebook](https://github.com/rodrigodemend/Diagnostico-de-Dados-Clinicos-com-Machine-Learning/blob/main/Notebooks/Modelagem_para_Diagnóstico_de_Dados_Clínicos_com_Machine_Learning_.ipynb).
-
 
 <p align="justify">
 Também iremos fazer o balanceamento das classes utilizando uma técnica conhecida como SMOTE. O balanceamento dos dados é algo importante pois se tivermos muito mais dados de apenas uma classe, nosso modelo poderá prever tudo para essa classe e mesmo assim ele ainda terá uma suposta boa avaliação de performace.
@@ -81,7 +79,7 @@ Floresta Aleatória: 0.9035
 Obtivemos bons resultados após toda a otimização dos modelos, porém na área da saúde nós devemos ter modelos muito precisos. Acredito que nossa Regressão Logística e nossa Floresta Aleatória poderiam ser muito úteis na criação de ensembles para tentar chegar em um AUC cada vez melhor. Assim como testar outros algoritmos como SVM e KNN a fim de olhar por outros ângulos para o problema, podendo trazer um poder preditivo diferente.
 </p>
 
-Link para o [Notebook](https://github.com/rodrigodemend/Previsao_Covid/blob/main/Notebooks/Previsão_de_Series_Temporais_usando_Prophet.ipynb) do projeto.
+Link para o [Notebook](https://github.com/rodrigodemend/Diagnostico-de-Dados-Clinicos-com-Machine-Learning/blob/main/Notebooks/Modelagem_para_Diagnóstico_de_Dados_Clínicos_com_Machine_Learning_.ipynb) de modelagem do projeto.
 
 ## Autor 🧔
 
