@@ -18,13 +18,13 @@ A partir do momento em que o paciente é internado no hospital Sírio-Libanês, 
 <p align="justify">
 Como dito anteriormente, nós temos as informações demográficas e grupo de doenças prévias do paciente, além disso também temos os sinais vitais e exames de sangue que estão sendo coletados em intervalos de 2 horas. Porém, como queremos dar a informação se o paciente precisará de um leito de UTI o mais cedo possível, iremos prever com base apenas nos sinais vitais e exames de sangue das primeiras duas horas do paciente no hospital, fazendo com que todos os profissionais do hospital fiquem cientes durante as primeiras duas horas após a internação do paciente, se aquele paciente que estão atendendo irá precisar ou não de um leito de UTI.
 
-Os dados foram obtidos através do [Kaggle](https://www.kaggle.com/Sírio-Libanes/covid19) onde o hospital Sírio-Libanês disponibilizou os dados mencionados acima de pacientes que já foram internados, contendo tanto pacientes que foram para UTI, quanto pacientes que não agravaram seus casos e não precisaram de leitos de UTI. Afim de organizar melhor o projeto, os dados que utilizaremos foram importados e limpos neste [notebook](https://github.com/rodrigodemend/Diagnostico-de-Dados-Clinicos-com-Machine-Learning/blob/main/Notebooks/Importação_e_Limpeza_dos_Dados.ipynb) que se encontra nesse mesmo repositório. 
+Os dados foram obtidos através do [Kaggle](https://www.kaggle.com/Sírio-Libanes/covid19) onde o hospital Sírio-Libanês disponibilizou os dados mencionados acima de pacientes que já foram internados, contendo tanto pacientes que foram para UTI, quanto pacientes que não agravaram seus casos e não precisaram de leitos de UTI. Afim de organizar melhor o projeto, os dados que utilizaremos foram importados e limpos neste [Notebook](https://github.com/rodrigodemend/Diagnostico-de-Dados-Clinicos-com-Machine-Learning/blob/main/Notebooks/Importação_e_Limpeza_dos_Dados.ipynb) que se encontra nesse mesmo repositório. 
 </p>
 
 # Como será feito 📈
 
-
-Primeiramente iremos fazer a importação dos dados do [Kaggle2](https://www.kaggle.com/Sírio-Libanes/covid19) e realizar alguns procedimentos para sua limpeza. Essa etapa consiste em tratar os valores faltantes, ajustar os datatypes, verificar a presença de outliers e fazer a transformação dos dados no formato que precisamos para passar para nossos modelos de machine learning. Tudo isso se encontra nesse [notebook2](https://github.com/rodrigodemend/Diagnostico-de-Dados-Clinicos-com-Machine-Learning/blob/main/Notebooks/Importação_e_Limpeza_dos_Dados.ipynb).
+<p align="justify">
+Primeiramente iremos fazer a importação dos dados do [Kaggle](https://www.kaggle.com/Sírio-Libanes/covid19) e realizar alguns procedimentos para sua limpeza. Essa etapa consiste em tratar os valores faltantes, ajustar os datatypes, verificar a presença de outliers e fazer a transformação dos dados no formato que precisamos para passar para nossos modelos de machine learning. Tudo isso se encontra nesse [Notebook](https://github.com/rodrigodemend/Diagnostico-de-Dados-Clinicos-com-Machine-Learning/blob/main/Notebooks/Importação_e_Limpeza_dos_Dados.ipynb).
 
 Após a limpeza, iremos fazer uma exploração dos dados e engenharia de atributos com o objetivo de buscar por possíveis atributos que possa ajudar nosso modelo a diferenciar entre os pacientes que irão para UTI e os que não não irão. Além de buscar por novos atributos escondidos nos dados, também iremos ajustar as escalas para que nosso modelo não de preferência para um atributo apenas porque está em uma escala diferente dos demais. Está e as demais etapas se encontram nesse NOTEBOOK.
   
@@ -37,7 +37,7 @@ Chegou enfim o momento da criação do modelo de machine learning, porém antes 
 Após a criação da baseline, iremos criar um modelo baseado na própria Regressão Logística, mas dessa vez iremos fazer uma seleção mais elaborada dos atributos, eliminando os atributos correlacionados e aplicando a técnica do Step Backward Selection para selecionar apenas os atributos que são importantes para a Regressão Logística. Além disso iremos também trabalhar na otimização dos hiperparâmetros e vamos fazer uma análise nos dados de validação que nosso modelo errou, buscando por padrões que poderemos criar novos atributos que ajudarão nosso modelo a melhorar a performace.
   
 Agora, iremos seguir os mesmos passos da criação do modelo da Regressão Logística para criar uma Floresta Aleatória. Após a criação e otimização dos dois modelos, iremos fazer uma comparação entre eles a fim de escolher qual melhor se adequa para solucionar nosso problema.
-  
+</p>
   
   
   
