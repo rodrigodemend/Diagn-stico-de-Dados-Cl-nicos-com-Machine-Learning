@@ -76,6 +76,10 @@ Floresta Aleatória: 0.9035 com 24 atributos.
 # Conclusões :memo:
 
 <p align="justify">
+Podemos concluir que as técnicas implementadas de seleção de atributos obtiveram um sucesso considerável, uma vez que o objetivo com esse tipo de técnica é reduzir o número de atributos do nosso modelo. Além disso conseguimos ver por muitas vezes os atributos em excesso prejudicam a generalização dos modelos.
+</p> 
+  
+<p align="justify">
 Obtivemos bons resultados após toda a otimização dos modelos, porém na área da saúde nós devemos ter modelos muito precisos. Acredito que nossa Regressão Logística e nossa Floresta Aleatória poderiam ser muito úteis na criação de ensembles para tentar chegar em um AUC cada vez melhor. Assim como testar outros algoritmos como SVM e KNN a fim de olhar por outros ângulos para o problema, podendo trazer um poder preditivo diferente.
 </p>
 
