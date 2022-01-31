@@ -1,10 +1,10 @@
-<p align="justify">
-
 # Diagnóstico de Dados Clinicos com Machine Learning
 
+<p align="justify">
 Olá! Bem vindo ao meu repositório relativo ao projeto final do Bootcamp Data Science da Alura! Nele eu pude demonstrar todo o conhecimento adquirido durante o Bootcamp, aplicando em um caso real de dados disponibilizados pelo hospital Sírio-Libanês. O principal objetivo é a construção de um modelo de machine learning capaz de detectar quais pacientes do hospital Sírio-Libanês que foram internados, irão agravar seus casos e precisarão de leito de UTI. 
+</p>
 
-
+<p align="justify">
 Abaixo detalherei melhor qual o escopo do projeto, quais dados serão utilizados e como será organizado o projeto.
 
 # Descrição do Problema :clipboard:
@@ -20,16 +20,16 @@ Como dito anteriormente, nós temos as informações demográficas e grupo de do
 Os dados foram obtidos através do [Kaggle](https://www.kaggle.com/Sírio-Libanes/covid19) onde o hospital Sírio-Libanês disponibilizou os dados mencionados acima de pacientes que já foram internados, contendo tanto pacientes que foram para UTI, quanto pacientes que não agravaram seus casos e não precisaram de leitos de UTI. 
 
 Afim de organizar melhor o projeto, os dados que utilizaremos foram importados e limpos neste [Notebook](https://github.com/rodrigodemend/Diagnostico-de-Dados-Clinicos-com-Machine-Learning/blob/main/Notebooks/Importação_e_Limpeza_dos_Dados.ipynb) que se encontra nesse mesmo repositório. 
-
-
-
-
-
-
-
-
-
 </p>
+
+
+
+
+
+
+
+
+
 
 ======================================================================================================================
 
