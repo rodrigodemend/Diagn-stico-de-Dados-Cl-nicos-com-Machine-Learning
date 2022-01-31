@@ -23,9 +23,9 @@ Os dados foram obtidos através do [Kaggle](https://www.kaggle.com/Sírio-Libane
 
 # Como será feito 📈
 
-<p align="justify">
-Primeiramente iremos fazer a importação dos dados do [Kaggle](https://www.kaggle.com/Sírio-Libanes/covid19) e realizar alguns procedimentos para sua limpeza. Essa etapa consiste em tratar os valores faltantes, ajustar os datatypes, verificar a presença de outliers e fazer a transformação dos dados no formato que precisamos para passar para nossos modelos de machine learning. Tudo isso se encontra nesse [Notebook](https://github.com/rodrigodemend/Diagnostico-de-Dados-Clinicos-com-Machine-Learning/blob/main/Notebooks/Importação_e_Limpeza_dos_Dados.ipynb).
-</p>
+
+<p align="justify">Primeiramente iremos fazer a importação dos dados do [Kaggle](https://www.kaggle.com/Sírio-Libanes/covid19) e realizar alguns procedimentos para sua limpeza. Essa etapa consiste em tratar os valores faltantes, ajustar os datatypes, verificar a presença de outliers e fazer a transformação dos dados no formato que precisamos para passar para nossos modelos de machine learning. Tudo isso se encontra nesse [Notebook](https://github.com/rodrigodemend/Diagnostico-de-Dados-Clinicos-com-Machine-Learning/blob/main/Notebooks/Importação_e_Limpeza_dos_Dados.ipynb).</p>
+
 
 <p align="justify">
 Após a limpeza, iremos fazer uma exploração dos dados e engenharia de atributos com o objetivo de buscar por possíveis atributos que possa ajudar nosso modelo a diferenciar entre os pacientes que irão para UTI e os que não não irão. Além de buscar por novos atributos escondidos nos dados, também iremos ajustar as escalas para que nosso modelo não de preferência para um atributo apenas porque está em uma escala diferente dos demais. Está e as demais etapas se encontram nesse NOTEBOOK.
