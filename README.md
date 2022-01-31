@@ -76,7 +76,7 @@ Floresta Aleatória: 0.9035 com 24 atributos.
 # Conclusões :memo:
 
 <p align="justify">
-Podemos concluir que as técnicas implementadas de seleção de atributos obtiveram um sucesso considerável, uma vez que o objetivo com esse tipo de técnica é reduzir o número de atributos do nosso modelo. Além disso conseguimos ver por muitas vezes os atributos em excesso prejudicam a generalização dos modelos.
+Podemos concluir que as técnicas implementadas de seleção de atributos obtiveram um sucesso considerável, uma vez que o objetivo com esse tipo de técnica é reduzir o número de atributos do nosso modelo. Além disso conseguimos ver que por muitas vezes os atributos em excesso prejudicam a generalização dos modelos.
 </p> 
   
 <p align="justify">
