@@ -56,33 +56,28 @@ Após a criação da baseline, iremos criar um modelo baseado na própria Regres
 Agora, iremos seguir os mesmos passos da criação do modelo da Regressão Logística para criar uma Floresta Aleatória. Após a criação e otimização dos dois modelos, iremos fazer uma comparação entre eles a fim de escolher qual melhor se adequa para solucionar nosso problema.
 </p>
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-======================================================================================================================
-
-Na pasta notebooks desse repositório, existe um [notebook](https://github.com/rodrigodemend/Diagnostico-de-Dados-Clinicos-com-Machine-Learning/blob/main/Notebooks/Importação_e_Limpeza_dos_Dados.ipynb) sobre a importação e limpeza dos dados, assim como um notebook sobre a modelagem do problema e a criação do modelo de machine learning. Além disso, também existe um notebook referente as funções criadas durante o projeto a fim de melhorar a organização do projeto e reutilização de códigos.
-
-======================================================================================================================
-
-
-
-
-
-# Como será feito 📈
-
-Primeiramente iremos criar um modelo básico sem otimização alguma com o Prophet. Após isso vamos criar diversos experimentos onde vamos otimizar os principais parâmetros da tendência, sazonalidade, feriados e outliers do modelo. Chegando assim em um modelo com erro bem menor do que o modelo inicial.
-
 # Resultados :dart:
 
-Conseguimos otimizar o modelo e diminuir em mais de 3x as duas métricas que usamos de avaliação do modelo (MAE e RMSE). Com isso chegamos com um erro menor de 6 mortes por dia de previsão, portanto temos uma previsão confiável do número de mortes por Covid-19 em Santa Catarina nos próximos dias.
+<p align="justify">
+Para avaliar a performace do modelo, foi utilizada a técnica de cross validation com 5 repartições. A afim de minimizar os efeitos da aleatóriedade, repetimos a técnica de cross validation 10 vezes e fizemos uma média de seus resultados. Obtendo assim, uma validação robusta capaz de diminuir o overfitting e aumentar a generalização dos modelos.
+</p>
+
+<p align="justify">
+Após todas as otimizações dos modelos chegamos nos seguintes resultados de AUC:
+</p>
+
+Regressão Logística: 0.8681
+ 
+Floresta Aleatória: 0.9035
+
+# Conclusões :memo:
+  
+
+  
+  
+
+======================================================================================================================
+
 
 # Conclusões :memo:
 
