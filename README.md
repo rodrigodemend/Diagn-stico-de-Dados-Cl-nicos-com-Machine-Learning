@@ -29,15 +29,25 @@ Primeiramente iremos fazer a importação dos dados do [Kaggle](https://www.kagg
 
 <p align="justify">
 Após a limpeza, iremos fazer uma exploração dos dados e engenharia de atributos com o objetivo de buscar por possíveis atributos que possa ajudar nosso modelo a diferenciar entre os pacientes que irão para UTI e os que não não irão. Além de buscar por novos atributos escondidos nos dados, também iremos ajustar as escalas para que nosso modelo não de preferência para um atributo apenas porque está em uma escala diferente dos demais. Está e as demais etapas se encontram nesse NOTEBOOK.
-  
+</p>
+
+<p align="justify">
 Também iremos fazer o balanceamento das classes utilizando uma técnica conhecida como SMOTE. O balanceamento dos dados é algo importante pois se tivermos muito mais dados de apenas uma classe, nosso modelo poderá prever tudo para essa classe e mesmo assim ele ainda terá uma suposta boa avaliação de performace.
+</p>
 
+<p align="justify">
 Uma vez definidos os atributos que iremos treinar nosso modelo, vamos passar para uma etapa muito importante que é a seleção dos melhores atributos. Aqui, iremos reduzir significativamente a quantidade de atributos que nosso modelo irá utilizar para treinamento, aumentando a capacidade de generalização do modelo e se tornando mais fácil para implementação em produção.
+</p>
 
+<p align="justify">
 Chegou enfim o momento da criação do modelo de machine learning, porém antes de partir para modelo mais complexos e otimizações, iremos criar uma Regressão Logística básica como baseline. Esse modelo é importante para conseguirmos comparar se as melhorias que estamos fazendo nos nosso modelos estão surtindo efeito ou não.
+</p>
 
+<p align="justify">
 Após a criação da baseline, iremos criar um modelo baseado na própria Regressão Logística, mas dessa vez iremos fazer uma seleção mais elaborada dos atributos, eliminando os atributos correlacionados e aplicando a técnica do Step Backward Selection para selecionar apenas os atributos que são importantes para a Regressão Logística. Além disso iremos também trabalhar na otimização dos hiperparâmetros e vamos fazer uma análise nos dados de validação que nosso modelo errou, buscando por padrões que poderemos criar novos atributos que ajudarão nosso modelo a melhorar a performace.
-  
+</p>
+
+<p align="justify">
 Agora, iremos seguir os mesmos passos da criação do modelo da Regressão Logística para criar uma Floresta Aleatória. Após a criação e otimização dos dois modelos, iremos fazer uma comparação entre eles a fim de escolher qual melhor se adequa para solucionar nosso problema.
 </p>
   
