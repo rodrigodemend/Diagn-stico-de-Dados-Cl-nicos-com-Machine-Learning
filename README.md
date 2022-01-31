@@ -1,5 +1,7 @@
 # Diagnóstico de Dados Clínicos com Machine Learning
 
+![SS-1161779041-covid19](https://user-images.githubusercontent.com/93204395/151732449-396e3022-20ae-4e83-a872-6c5452209401.jpg)
+
 <p align="justify">
 Olá! Bem vindo ao meu repositório relativo ao projeto final do Bootcamp Data Science da Alura! Nele eu pude demonstrar todo o conhecimento adquirido durante o Bootcamp, aplicando em um caso real de dados disponibilizados pelo hospital Sírio-Libanês. O principal objetivo é a construção de um modelo de machine learning capaz de detectar quais pacientes do hospital Sírio-Libanês que foram internados, irão agravar seus casos e precisarão de leito de UTI. 
 </p>
